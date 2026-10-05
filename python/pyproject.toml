@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qi-grasp"
+version = "1.0.0"
+description = "Reference implementation: quantum-inspired multi-objective grasp optimization for circlip-to-sleeve assembly"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.0", "matplotlib>=3.8", "pyyaml>=6"]
+
+[project.optional-dependencies]
+quantum = ["qiskit==2.5.2", "qiskit-aer==0.17.2", "qiskit-ibm-runtime==0.50.0"]
+stats = ["statsmodels>=0.14"]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["qi_grasp"]
