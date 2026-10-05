@@ -1,0 +1,8 @@
+# NOMINAL RGB-D calibration for a 640x480 / 30 fps sensor. These are textbook pinhole defaults, NOT a calibration of your camera:
+# replace with the values from your own intrinsic/extrinsic calibration (Sec. 4.7) before collecting robot data.
+resolution: [640, 480]
+fps: 30
+intrinsics: {fx: 600.0, fy: 600.0, cx: 320.0, cy: 240.0, distortion: [0.0, 0.0, 0.0, 0.0, 0.0]}
+extrinsics_camera_to_robot_base: {rotation_quat_xyzw: [0.0, 0.0, 0.0, 1.0], translation_m: [0.0, 0.0, 0.5]}
+depth_error_mm: {at_circlip_plane: 1.0, at_sleeve_groove: 1.0}   # nominal; quantify at the real working planes
+ft_sensor: {zero_offset_N_Nm: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], calibrated_on: "2026-10-05 (nominal zero; re-zero before each session)"}

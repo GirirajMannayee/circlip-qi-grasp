@@ -1,0 +1,1 @@
+trial_id,run_order,session,circlip_id,expansion_cycle_no,controller,init_orientation_deg,rgbd_frame_id,selected_candidate,grasp_error_mm,force_cmd_N,force_peak_N,expansion_Dreq_mm,expansion_Dpk_mm,overshoot_pct,slip_mm,seating_tilt_deg,assembly_success,release_time_s,cycle_time_s,failure_mode,exclusion_flag,notes

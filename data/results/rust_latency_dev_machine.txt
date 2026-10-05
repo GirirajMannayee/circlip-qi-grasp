@@ -1,0 +1,4 @@
+# Rust latency (Linux 6.18.44-fc-v70, 2 cores) - NOT the target edge hardware; H5 remains open
+mode=Argmax calls=100000 median=0.135us p95=0.141us p99.9=0.240us max=37.076us mean=0.141us fallback_rate=0.0000%
+mode=Hard { k: None } calls=100000 median=0.403us p95=0.643us p99.9=3.924us max=78.485us mean=0.441us fallback_rate=0.0000%
+mode=Soft { k: 2, gamma: 6.0 } calls=100000 median=0.700us p95=0.919us p99.9=8.189us max=57.793us mean=0.739us fallback_rate=0.0000%
