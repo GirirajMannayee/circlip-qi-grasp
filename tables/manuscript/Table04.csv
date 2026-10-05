@@ -1,0 +1,5 @@
+Circuit stage,Purpose,Expected observation,Verified by
+H⊗⁴,Uniform initialization,Equal probability 1/16 over all indices,Figure 15 (K = 0)
+Soft phase oracle,Encode grasp utility,Higher-utility candidates receive larger phase,Figure 16
+Diffusion operator,Amplify favourable candidates,Probability mass shifts to high-utility indices,Figures 15–17
+Measurement,Candidate extraction,Best candidate has the highest sampling probability,Figure 17

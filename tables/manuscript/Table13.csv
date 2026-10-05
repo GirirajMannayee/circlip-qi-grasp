@@ -1,0 +1,4 @@
+Configuration,2q gates g,λ = (Pn − 1/N)/(Pi − 1/N),Effective f = λ1/g,Predicted Pn at f = 0.988
+"Hard, K = 3",189,0.110,0.988,0.154
+"Soft, K = 2",125,0.227,0.988,0.161
+"Soft, K = 3",189,0.186,0.991,0.085

@@ -1,0 +1,9 @@
+**Table 17. Initial-orientation sensitivity under C4 (DESIGNED benchmark)**
+
+| Initial orientation   |   Success (%) |   Tilt (°) |   Grasp error (mm) |   Overshoot (%) |   Slip (mm) |
+|:----------------------|--------------:|-----------:|-------------------:|----------------:|------------:|
+| 0°                    |          99.2 |       1.21 |               0.72 |            2.31 |        0.25 |
+| 30°                   |          98.3 |       1.74 |               0.88 |            2.57 |        0.32 |
+| 60°                   |          97.5 |       2.57 |               1.13 |            3.01 |        0.46 |
+
+*Designed value from the manuscript; not a measurement.*

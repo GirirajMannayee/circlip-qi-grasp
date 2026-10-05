@@ -1,0 +1,24 @@
+[package]
+name = "qi_grasp"
+version = "1.0.0"
+edition = "2021"
+description = "Bounded, allocation-free quantum-inspired grasp selection for circlip-to-sleeve assembly (QIO-Rust core)"
+license = "MIT"
+rust-version = "1.74"
+
+# Intentionally dependency-free: the real-time candidate-ranking path must stay auditable (manuscript Sec. 4.5).
+[dependencies]
+
+[lib]
+name = "qi_grasp"
+path = "src/lib.rs"
+
+[[bin]]
+name = "qi-grasp"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

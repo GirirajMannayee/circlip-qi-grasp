@@ -1,0 +1,9 @@
+Failure mode,Operational definition,Recorded variables
+Perception failure,"Circlip contour, gap or groove location unusable","Frame ID, confidence, cause"
+Grasp-point failure,Selected point outside reachable or valid contact region,"Candidate ID, error"
+Contact-force failure,Force below or above the calibrated safe band,"F(t), peak force"
+Slip,Circlip moves relative to the fingers beyond a predefined displacement,"Slip distance, time"
+Excessive tilt,Seating tilt exceeds a predefined application threshold (ring cocked),"Peak tilt, duration"
+Over-expansion,Ring opened beyond the elastic limit or a predefined overshoot percentage,"Dreq, Dpk"
+Mis-seating or ejection,"Circlip not fully seated in the groove, or lost before seating","Axial position, time, pose, force"
+Acquisition failure,"Camera, sensor or robot logging failure","Hardware log, exclusion flag"

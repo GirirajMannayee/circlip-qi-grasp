@@ -1,0 +1,10 @@
+**Table 16. Controller-level DESIGNED benchmark (not measured)**
+
+| Controller         |   Success (%) |   Grasp error (mm) |   Tilt (°) |   Overshoot (%) |   Slip (mm) |   Peak force (N) |   Time (s) |
+|:-------------------|--------------:|-------------------:|-----------:|----------------:|------------:|-----------------:|-----------:|
+| C1 Fixed           |          86.7 |               2.84 |       6.72 |            7.41 |        1.72 |               24 |       8.42 |
+| C2 Vision          |          91.7 |               1.92 |       5.08 |            5.63 |        1.21 |               21 |       7.31 |
+| C3 Vision+Force    |          95   |               1.47 |       3.21 |            3.72 |        0.71 |               17 |       6.94 |
+| C4 QI Vision+Force |          98.3 |               0.91 |       1.84 |            2.63 |        0.34 |               14 |       6.21 |
+
+*Designed value from the manuscript; not a measurement.*

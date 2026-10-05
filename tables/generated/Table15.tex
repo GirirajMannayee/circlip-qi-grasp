@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Table 15. Executed candidate-selection performance on 2,000 synthetic sets (seed 43, layout fixed in this repo)}
+\label{tab:table15}
+\begin{tabular}{lllllr}
+\toprule
+Method & Top-1 (\%) & Top-3 (\%) & Mean regret & 95th-pct regret & Utility evals \\
+\midrule
+Exhaustive argmax & 100.0 & 100.0 & 0.0000 & 0.0000 & 16 \\
+Greedy (position only) & 24.6 & 53.5 & 0.1066 & 0.2896 & 16 \\
+Random subset (8 evals) & 50.7 & 88.6 & 0.0414 & 0.1651 & 8 \\
+QI hard K = 3 & 100.0 & 100.0 & 0.0000 & 0.0000 & 16 \\
+QI soft K = 2 & 100.0 & 100.0 & 0.0000 & 0.0000 & 16 \\
+QI soft K = 3 & 94.8 & 97.3 & 0.0020 & 0.0136 & 16 \\
+\bottomrule
+\end{tabular}
+\end{table}

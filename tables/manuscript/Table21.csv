@@ -1,0 +1,10 @@
+Artifact,Recommended format,Purpose
+Robot trial log,CSV / Parquet,"One row per trial, all primary and secondary variables, failed trials included"
+Part metrology,CSV,"Free inner diameter, thickness and expansion-cycle count of every circlip; sleeve and groove dimensions"
+RGB-D calibration,YAML / JSON,Camera intrinsics and extrinsics
+Controller configuration,YAML / JSON,"All gains, thresholds and safety limits"
+Optimizer,Rust source + Cargo.lock; Python reference,Deterministic candidate selection
+Quantum circuit,"Quirk JSON + OpenQASM (supplied: qio_quirk_circuit_K3.json, qio_quirk_url.txt, qio_hard_oracle_K3.qasm)",Circuit inspection and interoperability
+Noise-test script,Python with pinned versions,"FakeManilaV2 execution, seeds and shot counts"
+Statistical analysis,R / Python script,"Models, diagnostics and post-hoc tests"
+Figures,SVG / PDF / PNG (300 dpi),Publication-quality plots and their source data

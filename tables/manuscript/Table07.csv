@@ -1,0 +1,8 @@
+Metric,Definition,Unit,Role
+"Seating tilt, Θs","|θm − θd|; θm is the angle between the circlip plane normal and the sleeve axis at release, θd = 0; fixed world reference and one prespecified definition",°,Primary endpoint
+"Assembly success, ASR",Ns/N × 100; a trial succeeds only if the circlip is fully seated in the groove at the end of the 3 s hold (prespecified axial-position and residual-tilt criterion),%,Secondary
+"Grasp-point error, Eg","Euclidean distance between the measured and desired grasp point, √[(xm − xd)² + (ym − yd)² + (zm − zd)²]",mm,Secondary
+"Expansion overshoot, Do",(Dpk − Dreq)/Dreq × 100; Dpk is the peak inner diameter during mounting and Dreq the smallest inner diameter that clears the sleeve,%,Secondary
+"Slip, Sd",|Pt − P₀|; displacement of the circlip relative to the finger pads during expansion and advance,mm,Secondary
+"Peak force, Fpeak",max F(t),N,Secondary
+"Cycle time, Tc",tseated − tgrasp,s,Secondary

@@ -1,0 +1,6 @@
+ID,Hypothesis,Gate,Status in this manuscript
+H1,Adaptive grasp selection reduces seating tilt and grasp-point error relative to fixed or vision-only grasping.,4 (robot),Planned. Designed benchmark only.
+H2,"Force feedback and explicit orientation correction further reduce expansion overshoot, slip and peak force while maintaining assembly success.",4 (robot),Planned. Designed benchmark only.
+H3,The quantum-inspired search reproduces classical ranking quality at a bounded computational budget.,1–2,"Executed. Matches exhaustive argmax in 100.0% (hard) and 99.9% (soft, K = 2) of 2,000 instances; no advantage over argmax."
+H4,The circuit analogue stays identifiable under a device-inspired noise model.,3,"Executed. Best candidate remains the modal outcome in 10/10 seeds, but its probability falls to 0.161."
+H5,The optimizer runs within a real-time latency bound on edge hardware.,1,Not yet tested. Rust build and latency profiling pending.

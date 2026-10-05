@@ -1,0 +1,5 @@
+Configuration,Adaptive grasp,Force feedback,Tilt correction,Tilt (°),Success (%)
+A1,No,No,No,5.08,91.7
+A2,Yes,No,No,4.21,93.3
+A3,Yes,Yes,No,2.76,96.7
+A4,Yes,Yes,Yes,1.84,98.3

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the manuscript."
+title: "Reproducibility package: Quantum-Inspired Multi-Objective Grasp Optimization for Vision–Force Adaptive Circlip-to-Sleeve Assembly"
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-10-05
+authors:
+  - family-names: "Mannayee"
+    given-names: "Giriraj"

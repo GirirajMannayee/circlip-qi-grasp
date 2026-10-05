@@ -1,0 +1,8 @@
+Outcome,Recommended model,Primary reporting
+Seating tilt (primary),Factorial GLM / mixed model,"Mean ± SD, 95% CI, F, p, partial η²"
+Assembly success,Binomial GLM / GLMM,"Successes/total, %, odds ratio, 95% CI"
+Grasp error,Factorial GLM / mixed model,"Mean ± SD, adjusted p"
+Expansion overshoot,Factorial GLM / mixed model,"Mean ± SD, adjusted p"
+Slip,Factorial GLM / mixed model,"Mean ± SD, adjusted p"
+Peak force,Factorial GLM / mixed model,"Mean ± SD, adjusted p"
+Cycle time,Factorial GLM / mixed model,"Mean ± SD, adjusted p"

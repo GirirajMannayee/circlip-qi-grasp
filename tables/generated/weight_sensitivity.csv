@@ -1,0 +1,11 @@
+weight,perturbation,p_hat_changed_pct
+position,-20%,7.449999999999999
+position,+20%,8.0
+orientation,-20%,8.3
+orientation,+20%,6.4
+expansion,-20%,7.5
+expansion,+20%,6.2
+force,-20%,5.800000000000001
+force,+20%,5.949999999999999
+slip,-20%,4.55
+slip,+20%,3.4000000000000004

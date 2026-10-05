@@ -1,0 +1,5 @@
+Configuration,Grasp selection,Force regulation,Orientation correction,Role in the analysis
+C1 fixed-position grasp,Fixed point,No,No,Baseline; overall effect C4 vs C1
+C2 vision-only grasp,From vision,No,No,Vision-only reference
+C3 vision + force,From vision,Yes,No,Comparator for the primary contrast C4 vs C3
+C4 quantum-inspired vision + force and orientation,Quantum-inspired selection (Section 3.5),Yes,Yes,Proposed configuration

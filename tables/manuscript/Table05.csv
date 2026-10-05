@@ -1,0 +1,10 @@
+Parameter,Specification
+Circlip,"External circlip, DIN 471-type, spring steel; nominal size for a 20 mm shaft; thickness 1.2 mm (nominal)"
+Sleeve,"Cylindrical sleeve, outer diameter 20 mm, one external groove (groove diameter 19 mm, width 1.3 mm), lead-in chamfer (nominal)"
+Robot,6-DOF manipulator
+End effector,Two-finger gripper with compliant silicone pads
+Vision,"RGB-D, 640 × 480, 30 fps"
+Force sensing,"6-axis wrist F/T, 100 Hz"
+Carry / advance / hold,100 mm / 30 mm / 3 s
+Initial orientation,"0°, 30°, 60°"
+Trials,30 repetitions per controller × orientation; 360 in total

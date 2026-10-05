@@ -1,0 +1,8 @@
+Outcome,C1,C4,Relative change,Interpretation
+Success (%),86.7,98.3,+13.4%,Higher
+Grasp error (mm),2.84,0.91,-68.0%,Lower
+Tilt (°),6.72,1.84,-72.6%,Lower
+Overshoot (%),7.41,2.63,-64.5%,Lower
+Slip (mm),1.72,0.34,-80.2%,Lower
+Peak force (N),24.0,14.0,-41.7%,Lower
+Cycle time (s),8.42,6.21,-26.2%,Lower

@@ -1,0 +1,6 @@
+Result block,Tables / figures,Evidence type,Replace before submission?
+"Circuit simulation (ideal, noisy)","Tables 12, 14; Figs 11–13, 15–17",Executed (simulation),Re-run on final circuit
+Candidate-selection study,Table 15; Fig 18,Executed (synthetic data),Re-run on real candidate sets
+Controller and orientation,Tables 16–17; Figs 19–21,Designed benchmark,Yes: trial-level data
+Optimizer comparison,Table 18; Fig 22,Designed benchmark,Yes: executed benchmark
+Ablation and relative change,Tables 19–20; Figs 23–24,Designed benchmark / derived,Yes: trial-level data

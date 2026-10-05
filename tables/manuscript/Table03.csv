@@ -1,0 +1,19 @@
+Symbol,Meaning,Defined in
+"p, 𝒫, 𝒜","Candidate index (4-bit label, p ∈{0,…,15}); the 16 candidate contacts; the admissible subset that satisfies clearance and reachability","Sec. 3.1; Eqs. (2), (6)"
+ω,Observation available at the start of a cycle,Sec. 3.3
+"E′ₚ, E′θ, D′ₑ, F′ₙ, S′ᵈ","Normalized features of a candidate: positional error, orientation error, predicted radial expansion, force demand and slip risk, each scaled to [0, 1]",Eq. (1)
+"J, U","Weighted cost and utility of a candidate, U = 1 − J",Eqs. (1)–(2)
+"M, r, F, θ, keff",Seating moment; vector from the effective finger contact centre to the sleeve-side reaction; reaction (insertion) force; tilt; effective restoring stiffness about the seating axis,Eq. (3); Figure 3
+"Θs, Θg, Θc",Seating tilt (primary endpoint) and its grasp-geometry and post-contact regulation-residual terms,Eq. (7); Sec. 4.3
+"u(·), T","Control trajectory (finger force, advance and tilt commands) and horizon [0, T]",Eq. (4)
+"Fd, Fm, Fmin, Fmax",Desired and measured grip force; lower and upper bounds of the force band (Fd = 14 N; band 10–20 N; design targets),"Eqs. (5), (9); Sec. 3.4"
+"D, Del, Dreq, Dpk, Do",Ring diameter at time t; elastic limit; smallest inner diameter that clears the sleeve; peak inner diameter; expansion overshoot,Eq. (5); Sec. 4.3
+"Sd, Smax",Slip (displacement of the circlip relative to the finger pads) and its limit,Eq. (5); Sec. 4.3
+"tc, ts, topt, Twd",Time of contact; force-loop settling time; optimizer run time; watchdog time limit,Sec. 3.3
+"cclr, ρ","Collision-clearance margin; reachability indicator (ρ ∈ {0, 1})",Eq. (6)
+"qF, qθ, KP, KI",Weights of the quadratic regulation cost; proportional and integral gains of the PI force law,Eqs. (8)–(9)
+"kc, xf, ωn, ζ",Contact stiffness; finger closure; natural frequency and tuning parameter of the closed-loop force response,Sec. 3.4
+"N, n, K, α, γ",Number of candidates (16); number of qubits (4); number of oracle–diffusion iterations; Grover angle arcsin(1/√N); graded-phase exponent (γ = 6),Eqs. (10)–(12)
+"Oφ, Rs, φₚ",Phase oracle; diffusion operator; phase assigned to candidate p,"Eqs. (10), (12)"
+"Ptarget, Pideal, Pnoisy, f, g, λ",Probability of the marked (best) candidate in the ideal and noisy cases; effective per-gate fidelity; number of two-qubit gates; attenuation factor λ = fg,"Eqs. (11), (13)"
+"ASR, Eg, Do, Sd, Fpeak, Tc","Assembly success rate, grasp-point error, expansion overshoot, slip, peak force and cycle time",Sec. 4.3; Table 7

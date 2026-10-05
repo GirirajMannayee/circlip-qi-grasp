@@ -1,0 +1,11 @@
+Item,Setting
+Software,Qiskit 2.5.2; Qiskit Aer 0.17.2; qiskit-ibm-runtime 0.50.0
+Backend,"FakeManilaV2, snapshot of a five-qubit IBM device with linear coupling map Q0–Q1–Q2–Q3–Q4"
+Backend snapshot values,T₁ 125–179 µs; T₂ 25–102 µs; readout error 1.4–9.6%; CX error 0.57–1.39% per link (mean 1.0%)
+Circuit,"Four qubits (a chain of four device qubits), N = 16 candidates"
+Oracles and iterations,"Hard oracle in gate-level form (X–CCCZ–X), K = 3; soft oracles (γ = 6) as a four-qubit DiagonalGate, K = 2 and 3"
+Candidate set,"Synthetic, seed 42: 16 × 5 uniform features combined by Eq. (1); best candidate p = 5 (U = 0.725)"
+Transpilation,"Preset pass manager, optimization level 1, transpiler seed 42"
+Execution,"Ideal: statevector probabilities and noiseless Aer sampler. Noisy: Aer simulator from the backend noise model, 4096 shots, ten simulator seeds (42–51)"
+Reported quantities,"Target-state probability and Hellinger fidelity between the ideal and noisy distributions, mean ± SD across seeds"
+Not modelled,"Robot mechanics, camera error and contact dynamics"
